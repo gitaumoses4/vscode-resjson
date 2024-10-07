@@ -80,7 +80,8 @@
     "lint-fix": "eslint src --ext ts --fix",
     "watch": "tsc -watch -p ./",
     "pretest": "yarn run compile && yarn run lint",
-    "test": "node ./out/test/runTest.js"
+    "test": "node ./out/test/runTest.js",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@types/glob": "^7.1.1",
@@ -91,6 +92,7 @@
     "@typescript-eslint/parser": "^2.18.0",
     "eslint": "^6.8.0",
     "glob": "^7.1.6",
+    "husky": "^9.1.6",
     "mocha": "^7.0.1",
     "typescript": "^3.7.5",
     "vscode-test": "^1.3.0"

@@ -34,12 +34,7 @@ Developer file used by Windows Metro style apps developed for Windows 8; saved i
 
 ## Git hooks
 
-### Enable pre-commit hook
-
-Run the following commands:
-
-* chmod +x git_hooks/pre-commit
-* git config core.hooksPath "./git_hooks"
+This project uses [husky](https://typicode.github.io/husky/) to manage git hooks. The hooks are defined in the `.husky` folder.
 
 ## To do
 
